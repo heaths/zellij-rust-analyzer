@@ -10,6 +10,11 @@ license = "MIT"
 repository = "https://github.com/heaths/zellij-rust-analyzer"
 readme = "README.md"
 
+[[bin]]
+name = "zellij_rust_analyzer"
+path = "src/main.rs"
+test = false
+
 [dependencies]
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.149"
